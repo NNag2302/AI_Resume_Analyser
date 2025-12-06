@@ -1,4 +1,4 @@
-## 🚀 AI Resume Analyzer (React + TypeScript + Puter.js)
+## 🚀RESUMIND: AI Resume Analyzer (React + TypeScript + Puter.js)
 
 An intelligent resume-analysis web application that extracts text from PDF resumes, processes it using AI (via Puter.js), and displays structured insights such as candidate name, job role, skills, experience, projects, and improvement suggestions.
 
