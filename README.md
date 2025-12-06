@@ -31,37 +31,37 @@ This project is fully frontend-driven and uses **Puter.js** as the backend servi
 ### **Frontend**
 - React + TypeScript
 - React Router DOM
-- Tailwind / CSS (your choice)
+- Tailwind
 - Vite
 - Axios
 
 ### **Backend (Serverless using Puter)**
 - Puter.js  
-- AI Model Provider: _(OpenAI / Gemini / Puter AI — whatever you used)_
+- AI Model Provider: OpenAI 
 
 ---
 
 ## Folder Structure
-AI-Resume-Analyser/
+📁 AI-Resume-Analyser
 │
-├── app/
-│   ├── Components/
-│   │   └── ResumePage.tsx
-│   ├── routes/
-│   │   ├── home.tsx
-│   │   ├── auth.tsx
-│   │   ├── upload.tsx
-│   │   └── resume.$id.tsx
-│   ├── welcome/
-│   └── app.css
+├── 📂 app
+│   ├── 📂 Components
+│   │   └── 📄 ResumePage.tsx
+│   ├── 📂 routes
+│   │   ├── 📄 home.tsx
+│   │   ├── 📄 auth.tsx
+│   │   ├── 📄 upload.tsx
+│   │   ├── 📄 resume.$id.tsx
+│   │   └── 📂 welcome
+│   └── 📄 app.css
 │
-├── public/
-├── constants/
-├── types/
-├── Dockerfile
-├── package.json
-├── react-router.config.ts
-├── README.md
-├── tsconfig.json
-└── vite.config.ts
-
+├── 📂 public
+├── 📂 constants
+├── 📂 types
+│
+├── 📄 Dockerfile
+├── 📄 package.json
+├── 📄 react-router.config.ts
+├── 📄 README.md
+├── 📄 tsconfig.json
+└── 📄 vite.config.ts
