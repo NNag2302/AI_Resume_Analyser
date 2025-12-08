@@ -3,12 +3,19 @@
 An intelligent resume-analysis web application that extracts text from PDF resumes, processes it using AI (via Puter.js), and displays structured insights such as candidate name, job role, skills, experience, projects, and improvement suggestions.
 
 This project is fully frontend-driven and uses **Puter.js** as the backend service for:
-- File uploads  
-- Fetching PDF content  
-- Storage  
-- Processing  
+
+- File uploads
+- Fetching PDF content
+- Storage
+- Processing
 
 ---
+
+## 🚀 Live Deployment
+
+Experience the project live here:
+
+👉 https://resumind-kappa.vercel.app/
 
 ## ⭐ Features
 
@@ -29,6 +36,7 @@ This project is fully frontend-driven and uses **Puter.js** as the backend servi
 ## 🛠 Tech Stack
 
 ### **Frontend**
+
 - React + TypeScript
 - React Router DOM
 - Tailwind
@@ -36,24 +44,26 @@ This project is fully frontend-driven and uses **Puter.js** as the backend servi
 - Axios
 
 ### **Backend (Serverless using Puter)**
-- Puter.js  
-- AI Model Provider: OpenAI 
+
+- Puter.js
+- AI Model Provider: OpenAI
 
 ---
 
 ## Folder Structure
+
 📁 AI-Resume-Analyser
 │
 ├── 📂 app
-│   ├── 📂 Components
-│   │   └── 📄 ResumePage.tsx
-│   ├── 📂 routes
-│   │   ├── 📄 home.tsx
-│   │   ├── 📄 auth.tsx
-│   │   ├── 📄 upload.tsx
-│   │   ├── 📄 resume.$id.tsx
-│   │   └── 📂 welcome
-│   └── 📄 app.css
+│ ├── 📂 Components
+│ │ └── 📄 ResumePage.tsx
+│ ├── 📂 routes
+│ │ ├── 📄 home.tsx
+│ │ ├── 📄 auth.tsx
+│ │ ├── 📄 upload.tsx
+│ │ ├── 📄 resume.$id.tsx
+│ │ └── 📂 welcome
+│ └── 📄 app.css
 │
 ├── 📂 public
 ├── 📂 constants
